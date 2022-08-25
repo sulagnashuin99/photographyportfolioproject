@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Cookie&family=Cormorant+SC&family=Noto+Serif:ital@0;1&family=Playfair+Display:ital@0;1&family=Red+Hat+Display:wght@900&family=Ribeye+Marrow&family=Rubik+Burned&family=Sacramento&family=Slabo+27px&display=swap');
+
+h1 {
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: 'Cinzel', serif;
+font-family: 'Cookie', cursive;
+font-family: 'Cormorant SC', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Ribeye Marrow', cursive;
+font-family: 'Rubik Burned', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'Slabo 27px', serif;
+
+  }
+  h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+    color: rgb(97, 95, 95);
+    font-family: 'Red Hat Display', sans-serif;
+
+  }
+  main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1),
+      -30px 0px 40px rgba(0, 0, 0, 0.1);
+  }
+  img {
+    display: block;
+    width: 100%;
+  }
+  #container {
+    background: rgb(173, 230, 238);
+  }
+  #container-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .btn {
+    padding: 0.5rem 2rem;
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: rgb(252, 250, 250);
+    background: green;
+  }
+#collection h2 {
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+
+  }
+  .caption {
+    padding: 0.8rem;
+    text-align: center;
+    background: rgb(173, 230, 238);
+    font-family: 'Noto Serif', serif;
+    font-family: 'Cinzel', serif;
+}
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+  }
+  footer h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+  body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background: #eee;
+    height: auto;
+  }
